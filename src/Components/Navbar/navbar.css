@@ -1,0 +1,134 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+}
+
+.navbar_lside{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.center_side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+}
+
+.center_side li{
+    cursor: pointer;
+}
+
+.center_side hr{
+    height: 2px;
+    width: 70%;
+    border: 0;
+    outline: 0;
+    background-color: rgb(113, 41, 41);
+    border-radius: 2px;
+    margin: auto;
+}
+
+.navbar_rside{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar_rside button{
+    height: 45px;
+    width: 130px;
+    border: 1px solid black;
+    background-color: transparent;
+    border-radius: 75px;
+    outline: 0;
+    cursor: pointer;
+}
+
+.navbar_rside img{
+    width: 30px;
+    height: 30px;
+}
+
+.navbar_rside_count{
+    width: 22px;
+    height: 22px;
+    color: white;
+    background-color: rgb(235, 35, 35);
+    border-radius:12px;
+    margin-left: -35px;
+    margin-top: -25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar_lside p{
+    font-weight: bold;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.menue_icon{
+    display: none;
+}
+
+.navbar_menue_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 60px;
+    margin-top: 1rem;
+    margin-right: 4rem;
+    border-radius: 5px;
+    background-color: rgb(243, 157, 200);
+    list-style: none;
+    padding: 30px;
+}
+
+.navbar_menue_list li{
+    color: black;
+    padding: 10px 20px;
+    font-size: 17px;
+}
+
+.navbar_menue_list button{
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: crimson;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    cursor: pointer;
+}
+
+.menue_icon{
+    display: none;
+    cursor: pointer;
+}
+
+@media(max-width:870px){
+    .menue_icon{
+        display: block;
+    }
+
+    .center_side{
+        display: none;
+    }
+
+    .navbar_rside button{
+        display: none;
+    }
+}
+
+
+
+

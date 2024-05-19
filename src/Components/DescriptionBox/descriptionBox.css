@@ -1,0 +1,34 @@
+.descriptionbox{
+    display: flex;
+    flex-direction: column;
+    margin: 0 120px 100px 120px;
+}
+
+.descriptionbox_navigate{
+    display: flex;
+}
+
+.descriptionbox_navigate div{
+    padding: 20px 30px;
+    font-size: 20px;
+    background-color: rgb(242, 224, 224);
+    border: 1px solid rgb(172, 157, 157);
+    cursor: pointer;
+}
+
+.descriptionbox_box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid rgb(172, 157, 157);
+    align-items: flex-start;
+    padding: 20px 40px;
+
+}
+
+@media(max-width:600px){
+    .descriptionbox_navigate{
+        flex-direction: column;
+        
+    }
+}
